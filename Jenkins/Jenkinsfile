@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Stage 1') {
+            steps {
+                sh  ' echo "This is Jenkins File insde Jenkins Folder" '  
+            }
+        }
+    }
+}
